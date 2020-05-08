@@ -43,8 +43,7 @@ class Package {
 };
 
 int main(int argc, const char* argv[]) {
-  pugi::xml_document doc;
-  // pugi::xml_parse_result results = doc.load_file(argv[1]);
+  pugi::xml_document     doc;
   pugi::xml_parse_result results = doc.load_file(argv[1]);
 
   if (!results) {
